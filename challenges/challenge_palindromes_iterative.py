@@ -1,3 +1,3 @@
-def is_palindrome_iterative(word):
+def is_palindrome_iterative(word: str) -> bool:
     """Faça o código aqui."""
-    raise NotImplementedError
+    return len(word) > 0 and word == word[::-1]
